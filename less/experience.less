@@ -1,0 +1,90 @@
+.experiencePage{
+    padding: 15px;
+    .quote{
+        padding: 100px;
+        background-color: @mainFont;
+        border-radius: 10px;
+        color: @backgroundLight;
+        border: 5px solid @secondaryFont;
+        -webkit-text-stroke: 1px @backgroundDark;
+        h5{
+            right: -500px;
+            color: @backgroundDark;
+            -webkit-text-stroke: 0px;
+        }
+    }
+    .story{
+        padding: 50px;
+        font-weight: bold;
+        h1{
+            border-bottom: 3px solid @backgroundDark;
+            -webkit-text-stroke: 1px @backgroundDark;
+            padding-bottom: 50px;
+            color: @secondaryFont;
+        }
+        p{
+            padding: 25px;;
+        }
+    }
+    .experience{
+        padding: 50px;
+        h1{
+            padding-bottom: 50px;
+            color: @secondaryFont;
+            border-bottom: 3px solid @backgroundDark;
+            -webkit-text-stroke: 1px @backgroundDark;
+        }
+        .singleJob{
+            width: 100%;
+            text-align: left;
+            padding: 25px;
+            .companyName{
+                color: @secondaryFont;
+            }
+            .date{
+                // text-align: left;
+                font-weight: bold;
+                color: @mainFont;
+            }
+            .jobDetails{
+                h4{
+                    color: @secondaryFont;
+                }
+                padding: 25px;
+                                ul {
+                                    list-style: none;
+                                }
+                
+                                ul li::before {
+                                    content: "\2022";
+                                    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                                    color: @secondaryFont;
+                                    /* Change the color */
+                                    font-weight: bold;
+                                    display: inline-block;
+                                    width: 1em;
+                                    margin-left: -1em;
+                                }
+            }
+        }
+    }
+    .education{
+        padding: 50px;
+        h1{
+            color: @secondaryFont;
+            padding-bottom: 50px;
+            border-bottom: 3px solid @backgroundDark;
+            -webkit-text-stroke: 1px @backgroundDark;
+        }
+        .singleInstitute{
+            text-align: left;
+            padding: 15px;
+            .instituteName{
+                color: @secondaryFont
+            }
+            .date{
+                font-weight: bold;
+            }
+        }
+    }
+}

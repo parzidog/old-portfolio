@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  background-color: #e1e6e1;
+  color: #1282a2;
+}
+.navBar {
+  border-bottom: 2.5px solid #e1e6e1;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #252525;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navBar h1 {
+  justify-content: left;
+  padding: 8px;
+  color: #dd614a;
+  -webkit-text-stroke: 1px #252525;
+  text-shadow: 3px 3px 0px #1282a2, 2.5px 2.5px 0px #1282a2, 2px 2px 0px #1282a2, 1.5px 1.5px 0px #1282a2, 1px 1px 0px #1282a2, 0.5px 0.5px 0px #1282a2;
+}
+.navBar nav {
+  padding: 17px;
+}
+.navBar nav button {
+  background-color: #252525;
+  color: #dd614a;
+  border-radius: 10px;
+  border-color: #909090;
+}
+.navBar nav a {
+  text-decoration: none;
+  padding: 8px;
+  color: #e1e6e1;
+  justify-content: right;
+  font-size: large;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px #252525;
+  text-shadow: 3px 3px 0px #dd614a, 2.5px 2.5px 0px #dd614a, 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
+}
+@media screen and (min-width: 600px) {
+  .navBar {
+    height: 80px;
+  }
+}
+.homePage {
+  position: relative;
+}
+.homePage .intro {
+  padding: 50px;
+  padding-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+  flex-direction: row;
+}
+.homePage .intro .type {
+  width: 45%;
+}
+.homePage .intro h1 {
+  padding: 20px;
+  padding-top: 100px;
+  max-width: 45%;
+  -webkit-text-stroke: 1px #1282a2;
+  color: #252525;
+}
+.homePage .intro img {
+  max-width: 600px;
+  border: 7px solid #1282a2;
+  border-radius: 225px;
+  min-width: 450px;
+}
+.homePage .about {
+  padding: 15px;
+  padding-bottom: 50px;
+}
+.homePage .about h1 {
+  color: #dd614a;
+  padding: 50px;
+  -webkit-text-stroke: 1px #252525;
+}
+.homePage .about p {
+  font-size: large;
+}
+.experiencePage {
+  padding: 15px;
+}
+.experiencePage .quote {
+  padding: 100px;
+  background-color: #1282a2;
+  border-radius: 10px;
+  color: #e1e6e1;
+  border: 5px solid #dd614a;
+  -webkit-text-stroke: 1px #252525;
+}
+.experiencePage .quote h5 {
+  right: -500px;
+  color: #252525;
+  -webkit-text-stroke: 0px;
+}
+.experiencePage .story {
+  padding: 50px;
+  font-weight: bold;
+}
+.experiencePage .story h1 {
+  border-bottom: 3px solid #252525;
+  -webkit-text-stroke: 1px #252525;
+  padding-bottom: 50px;
+  color: #dd614a;
+}
+.experiencePage .story p {
+  padding: 25px;
+}
+.experiencePage .experience {
+  padding: 50px;
+}
+.experiencePage .experience h1 {
+  padding-bottom: 50px;
+  color: #dd614a;
+  border-bottom: 3px solid #252525;
+  -webkit-text-stroke: 1px #252525;
+}
+.experiencePage .experience .singleJob {
+  width: 100%;
+  text-align: left;
+  padding: 25px;
+}
+.experiencePage .experience .singleJob .companyName {
+  color: #dd614a;
+}
+.experiencePage .experience .singleJob .date {
+  font-weight: bold;
+  color: #1282a2;
+}
+.experiencePage .experience .singleJob .jobDetails {
+  padding: 25px;
+}
+.experiencePage .experience .singleJob .jobDetails h4 {
+  color: #dd614a;
+}
+.experiencePage .experience .singleJob .jobDetails ul {
+  list-style: none;
+}
+.experiencePage .experience .singleJob .jobDetails ul li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #dd614a;
+  /* Change the color */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.experiencePage .education {
+  padding: 50px;
+}
+.experiencePage .education h1 {
+  color: #dd614a;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #252525;
+  -webkit-text-stroke: 1px #252525;
+}
+.experiencePage .education .singleInstitute {
+  text-align: left;
+  padding: 15px;
+}
+.experiencePage .education .singleInstitute .instituteName {
+  color: #dd614a;
+}
+.experiencePage .education .singleInstitute .date {
+  font-weight: bold;
+}
+.contact {
+  padding: 50px;
+}
+.contact img {
+  max-width: 700px;
+  border: 7px solid #252525;
+  border-radius: 5px;
+}
+.contact .info h2 {
+  text-align: left;
+  padding: 25px;
+}
+.contact .info h2 span {
+  text-align: right;
+}
+.contact .info .phone .propertyName {
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+  color: #dd614a;
+}
+.contact .info .phone .propertyValue {
+  display: inline-block;
+  text-align: right;
+  width: 65%;
+  color: #1282a2;
+}
+.contact .info .email .propertyName {
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+  color: #1282a2;
+}
+.contact .info .email .propertyValue {
+  display: inline-block;
+  text-align: right;
+  width: 65%;
+  color: #dd614a;
+}
+.contact .info .email .propertyValue a {
+  color: #dd614a;
+  text-decoration: none;
+}
+.contact .info .github .propertyName {
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+  color: #dd614a;
+}
+.contact .info .github .propertyValue {
+  display: inline-block;
+  text-align: right;
+  width: 65%;
+  color: #1282a2;
+}
+.contact .info .github .propertyValue a {
+  color: #1282a2;
+  text-decoration: none;
+}
+.projects .singleProject {
+  padding: 25px;
+}
+.projects .singleProject h2 {
+  padding: 15px;
+  color: #252525;
+  text-shadow: 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
+}
+.projects .singleProject form {
+  padding: 15px;
+}
+.projects .singleProject form input {
+  background-color: #1282a2;
+  color: #e1e6e1;
+  font-weight: bold;
+  border: 2px solid #252525;
+  border-radius: 5px;
+}
+.projects .singleProject p {
+  color: #252525;
+}
+.projects .singleProject iframe {
+  padding: 15px;
+}
+body[data-theme="dark"] {
+  background-color: #252525;
+  color: #e1e6e1;
+}
+body[data-theme="dark"] .navBar h1 {
+  color: #1282a2;
+  text-shadow: 3px 3px 0px #dd614a, 2.5px 2.5px 0px #dd614a, 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
+}
+body[data-theme="dark"] .navBar nav a {
+  color: #e1e6e1;
+  -webkit-text-stroke: 0.5px #252525;
+  text-shadow: 3px 3px 0px #1282a2, 2.5px 2.5px 0px #1282a2, 2px 2px 0px #1282a2, 1.5px 1.5px 0px #1282a2, 1px 1px 0px #1282a2, 0.5px 0.5px 0px #1282a2;
+}
+body[data-theme="dark"] .navBar nav button {
+  color: #1282a2;
+}
+body[data-theme="dark"] .homePage .intro h1 {
+  color: #e1e6e1;
+  -webkit-text-stroke: 1px #dd614a;
+}
+body[data-theme="dark"] .homePage .intro img {
+  border: 7px solid #dd614a;
+}
+body[data-theme="dark"] .homePage .about h1 {
+  color: #1282a2;
+  -webkit-text-stroke: 1px #e1e6e1;
+}
+body[data-theme="dark"] .homePage .about p {
+  color: #e1e6e1;
+}
+body[data-theme="dark"] .experiencePage .quote {
+  background-color: #dd614a;
+  border-radius: 10px;
+  color: #252525;
+  border: 5px solid #1282a2;
+  -webkit-text-stroke: 1px #e1e6e1;
+}
+body[data-theme="dark"] .experiencePage .quote h5 {
+  color: #e1e6e1;
+  align-items: right;
+  -webkit-text-stroke: 0px;
+}
+body[data-theme="dark"] .experiencePage .story h1 {
+  color: #1282a2;
+  border-bottom: 3px solid #e1e6e1;
+  -webkit-text-stroke: 1px #e1e6e1;
+}
+body[data-theme="dark"] .experiencePage .story p {
+  color: #e1e6e1;
+}
+body[data-theme="dark"] .experiencePage .experience h1 {
+  color: #1282a2;
+  border-bottom: 3px solid #e1e6e1;
+  -webkit-text-stroke: 1px #e1e6e1;
+}
+body[data-theme="dark"] .experiencePage .experience .companyName {
+  color: #1282a2;
+}
+body[data-theme="dark"] .experiencePage .experience .date {
+  color: #dd614a;
+}
+body[data-theme="dark"] .experiencePage .experience .jobDetails h4 {
+  color: #1282a2;
+}
+body[data-theme="dark"] .experiencePage .experience .jobDetails ul li::before {
+  color: #dd614a;
+}
+body[data-theme="dark"] .experiencePage .education h1 {
+  color: #1282a2;
+  border-bottom: 3px solid #e1e6e1;
+  -webkit-text-stroke: 1px #e1e6e1;
+}
+body[data-theme="dark"] .experiencePage .education .date {
+  color: #dd614a;
+}
+body[data-theme="dark"] .experiencePage .education .singleInstitute .instituteName {
+  color: #1282a2;
+}
+body[data-theme="dark"] .projects .singleProject {
+  padding: 25px;
+}
+body[data-theme="dark"] .projects .singleProject h2 {
+  padding: 15px;
+  color: #e1e6e1;
+  text-shadow: 2px 2px 0px #1282a2, 1.5px 1.5px 0px #1282a2, 1px 1px 0px #1282a2, 0.5px 0.5px 0px #1282a2;
+}
+body[data-theme="dark"] .projects .singleProject form {
+  padding: 15px;
+}
+body[data-theme="dark"] .projects .singleProject form input {
+  background-color: #252525;
+  color: #dd614a;
+  border: 2px solid #1282a2;
+}
+body[data-theme="dark"] .projects .singleProject p {
+  color: #e1e6e1;
+}
+body[data-theme="dark"] .contact img {
+  border: 7px solid #e1e6e1;
+}

@@ -1,0 +1,141 @@
+body[data-theme="dark"] {
+    background-color: @backgroundDark;
+    color: @backgroundLight;
+
+    .navBar {
+        h1 {
+            color: @mainFont;
+            text-shadow: 3px 3px 0px @secondaryFont, 2.5px 2.5px 0px @secondaryFont, 2px 2px 0px @secondaryFont, 1.5px 1.5px 0px @secondaryFont, 1px 1px 0px @secondaryFont, 0.5px 0.5px 0px @secondaryFont;
+        }
+
+        nav {
+            a {
+                color: @backgroundLight;
+                -webkit-text-stroke: 0.5px @backgroundDark;
+                text-shadow: 3px 3px 0px @mainFont, 2.5px 2.5px 0px @mainFont, 2px 2px 0px @mainFont, 1.5px 1.5px 0px @mainFont, 1px 1px 0px @mainFont, 0.5px 0.5px 0px @mainFont;
+            }
+
+            button {
+                color: @mainFont;
+            }
+        }
+    }
+
+    .homePage {
+        .intro {
+            h1{
+                color: @backgroundLight;
+                -webkit-text-stroke: 1px @secondaryFont;
+            }
+            img {
+                border: 7px solid @secondaryFont;
+            }
+        }
+
+        .about {
+            h1 {
+                color: @mainFont;
+                -webkit-text-stroke: 1px @backgroundLight;
+            }
+            p{
+                color: @backgroundLight
+            }
+        }
+
+    }
+    .experiencePage {
+        .quote {
+            background-color: @secondaryFont;
+            border-radius: 10px;
+            color: @backgroundDark;
+            border: 5px solid @mainFont;
+            -webkit-text-stroke: 1px @backgroundLight;
+            h5 {
+                color: @backgroundLight;
+                align-items: right;
+                -webkit-text-stroke: 0px;
+            }
+        }
+        .story{
+            h1{
+                color: @mainFont;
+                border-bottom: 3px solid @backgroundLight;
+                -webkit-text-stroke: 1px @backgroundLight;
+            }
+            p{
+                color: @backgroundLight;
+            }
+        }
+        .experience{
+            h1 {
+                color: @mainFont;
+                border-bottom: 3px solid @backgroundLight;
+                -webkit-text-stroke: 1px @backgroundLight;
+                }
+                .companyName {
+                    color: @mainFont;
+                    // -webkit-text-stroke: 0.5px @backgroundLight;
+                }
+                .date{
+                    color: @secondaryFont;
+                }
+                .jobDetails {
+                    h4 {
+                        color: @mainFont;
+                    }
+                    ul li::before {
+                        color: @secondaryFont;
+                    }
+                }
+            }
+        .education{
+            
+            h1 {
+                color: @mainFont;
+                border-bottom: 3px solid @backgroundLight;
+                -webkit-text-stroke: 1px @backgroundLight;
+                }
+            .date {
+                color: @secondaryFont;
+            }
+            .singleInstitute {
+                .instituteName {
+                    color: @mainFont
+                }
+            }
+        }
+    }
+    .projects{
+        .singleProject {
+                padding: 25px;
+        
+                h2 {
+                    padding: 15px;
+                    color: @backgroundLight;
+                    // -webkit-text-stroke: 1px @mainFont;
+                    text-shadow: 2px 2px 0px @mainFont, 1.5px 1.5px 0px @mainFont, 1px 1px 0px @mainFont, 0.5px 0.5px 0px @mainFont;
+                }
+        
+                form {
+                    padding: 15px;
+                }
+        
+                form {
+                    input {
+                        background-color: @backgroundDark;
+                        color: @secondaryFont;
+                        border: 2px solid @mainFont;
+                    }
+                }
+        
+                p {
+                    color: @backgroundLight;
+                }
+            }
+    }
+    .contact{
+        img {
+                border: 7px solid @backgroundLight;
+            }
+    }
+}

@@ -1,0 +1,45 @@
+.homePage {
+    position: relative;
+
+    .intro {
+        padding: 50px;
+        padding-top: 75px;
+        .initFlex();
+        max-width: 100%;
+        justify-content: center;
+        .type{
+            width: 45%;
+        }
+
+        h1 {
+            padding: 20px;
+            padding-top: 100px;
+            max-width: 45%;
+            -webkit-text-stroke: 1px @mainFont;
+            color: @backgroundDark;
+        }
+
+        img {
+            max-width: 600px;
+            border: 7px solid @mainFont;
+            border-radius: 225px;
+            min-width: 450px;
+        }
+
+        flex-direction: row;
+    }
+
+    .about {
+        padding: 15px;
+        padding-bottom: 50px;;
+        h1 {
+            color: @secondaryFont;
+            padding: 50px;
+            -webkit-text-stroke: 1px @backgroundDark;
+        }
+
+        p {
+            font-size: large;
+        }
+    }
+}
