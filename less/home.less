@@ -7,14 +7,15 @@
         .initFlex();
         max-width: 100%;
         justify-content: center;
-        .type{
+
+        .type {
             width: 45%;
         }
 
         h1 {
-            padding: 20px;
-            padding-top: 100px;
-            max-width: 45%;
+            padding: 2%;
+            padding-top: 10%;
+            width: 45%;
             -webkit-text-stroke: 1px @mainFont;
             color: @backgroundDark;
         }
@@ -23,7 +24,8 @@
             max-width: 600px;
             border: 7px solid @mainFont;
             border-radius: 225px;
-            min-width: 450px;
+            width: 30%;
+            height: 10%;
         }
 
         flex-direction: row;
@@ -31,11 +33,14 @@
 
     .about {
         padding: 15px;
-        padding-bottom: 50px;;
+        padding-bottom: 50px;
+
         h1 {
+            display: flex;
             color: @secondaryFont;
             padding: 50px;
             -webkit-text-stroke: 1px @backgroundDark;
+            justify-content: center;
         }
 
         p {

@@ -1,39 +1,49 @@
-
-.navBar{
+.navBar {
     border-bottom: 2.5px solid @backgroundLight;
-    h1{
+
+    h1 {
+        display: flex;
+        width: 45%;
         justify-content: left;
-        padding: 8px;
+        padding: 1%;
         color: @secondaryFont;
         -webkit-text-stroke: 1px @backgroundDark;
-        text-shadow: 3px 3px 0px @mainFont,2.5px 2.5px 0px @mainFont,2px 2px 0px @mainFont, 1.5px 1.5px 0px @mainFont, 1px 1px 0px @mainFont,0.5px 0.5px 0px @mainFont;
+        text-shadow: 3px 3px 0px @mainFont, 2.5px 2.5px 0px @mainFont, 2px 2px 0px @mainFont, 1.5px 1.5px 0px @mainFont, 1px 1px 0px @mainFont, 0.5px 0.5px 0px @mainFont;
     }
+
     top: 0;
     left: 0;
     height: @navHeight;
     width: 100%;
     background-color: @backgroundDark;
     justify-content: space-between;
-    
+
     .initFlex();
-    
-    nav{
-        padding: 17px;
+
+    nav {
+        display: flex;
+        padding: 1%;
+        width: 50%;
+        justify-content: right;
+
         button {
             background-color: @backgroundDark;
             color: @secondaryFont;
             border-radius: 10px;
             border-color: #909090;
+            height: 35px;
+            padding: 0%;
         }
-        a{
+
+        a {
+            font-size: large;
             text-decoration: none;
-            padding: 8px;
+            padding-left: 1.5%;
             color: @backgroundLight;
             justify-content: right;
-            font-size: large;
             font-weight: bold;
             -webkit-text-stroke: 0.5px @backgroundDark;
-            text-shadow: 3px 3px 0px @secondaryFont,2.5px 2.5px 0px @secondaryFont,2px 2px 0px @secondaryFont, 1.5px 1.5px 0px @secondaryFont, 1px 1px 0px @secondaryFont,0.5px 0.5px 0px @secondaryFont;
+            text-shadow: 3px 3px 0px @secondaryFont, 2.5px 2.5px 0px @secondaryFont, 2px 2px 0px @secondaryFont, 1.5px 1.5px 0px @secondaryFont, 1px 1px 0px @secondaryFont, 0.5px 0.5px 0px @secondaryFont;
         }
     }
 
@@ -41,5 +51,5 @@
         height: @desktopHeight;
     }
 
-    
+
 }

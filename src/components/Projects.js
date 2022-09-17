@@ -7,7 +7,7 @@ function Projects(){
     const projects=[
     {
             name: 'This Website',
-            description: 'This website uses a combination of React and PSQL to render and store my personal career information in order to showcase my abilities and experience. I use PSQL to make updates simple and efficient while using a modular rendering to increase the speed and effeciency of the website itself.',
+            description: 'This website uses a combination of React and PSQL to render and store my personal career information in order to showcase my abilities and experience. I use PSQL to make updates simple and efficient while using a modular rendering to increase the speed and efficiency of the website itself.',
             repo: 'https://github.com/parzidog/portfolio.git'
         },
         {

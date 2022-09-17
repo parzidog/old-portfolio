@@ -1,67 +1,84 @@
-.contact{
+.contact {
     padding: 50px;
-    img {
-            max-width: 700px;
+
+    .img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        img {
+            max-width: 50%;
             border: 7px solid @backgroundDark;
-            border-radius: 5px;
+            border-radius: 50px;
         }
-        .info{
-            h2{
+    }
+
+    .info {
+        h2 {
+            text-align: left;
+            padding: 25px;
+
+            span {
+                text-align: right;
+            }
+        }
+
+        .phone {
+            .propertyName {
                 text-align: left;
-                padding: 25px;
-                span{
-                    text-align: right;
-                }
+                display: inline-block;
+                width: 25%;
+                color: @secondaryFont
             }
-            .phone{
-                .propertyName{
-                    text-align: left;
-                    display: inline-block;
-                    width: 25%;
-                    color: @secondaryFont
-                }
-                .propertyValue{
-                    display: inline-block;
-                    text-align: right;
-                    width: 65%;
-                    color: @mainFont
-                }
+
+            .propertyValue {
+                display: inline-block;
+                text-align: right;
+                width: 65%;
+                color: @mainFont
             }
-            .email{
-                .propertyName{
-                    text-align: left;
-                    display: inline-block;
-                    width: 25%;
-                    color: @mainFont
-                }
-                .propertyValue{
-                    display: inline-block;
-                    text-align: right;
-                    width: 65%;
+        }
+
+        .email {
+            .propertyName {
+                text-align: left;
+                display: inline-block;
+                width: 25%;
+                color: @mainFont
+            }
+
+            .propertyValue {
+                display: inline-block;
+                text-align: right;
+                width: 65%;
+                color: @secondaryFont;
+
+                a {
                     color: @secondaryFont;
-                    a {
-                            color: @secondaryFont;
-                            text-decoration: none;
-                        }
+                    text-decoration: none;
                 }
             }
-            .github{
-                .propertyName{
-                    text-align: left;
-                    display: inline-block;
-                    width: 25%;
-                    color: @secondaryFont
-                }
-                .propertyValue{
-                    display: inline-block;
-                    text-align: right;
-                    width: 65%;
+        }
+
+        .github {
+            .propertyName {
+                text-align: left;
+                display: inline-block;
+                width: 25%;
+                color: @secondaryFont
+            }
+
+            .propertyValue {
+                display: inline-block;
+                text-align: right;
+                width: 65%;
+                color: @mainFont;
+
+                a {
                     color: @mainFont;
-                    a{
-                        color: @mainFont;
-                        text-decoration: none;
-                    }
+                    text-decoration: none;
                 }
             }
         }
     }
+}
