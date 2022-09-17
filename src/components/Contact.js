@@ -3,7 +3,9 @@ import React from "react";
 function Contact(){
     return(
         <div className="contact">
-            <img src="headshot.jpg" alt="Headshot"/>
+            <div className="img">
+                <img src="headshot.jpg" alt="Headshot"/>
+            </div>
             <div className="info">
                 <div className="phone">
                     <h2 className="propertyName">Phone:</h2>
