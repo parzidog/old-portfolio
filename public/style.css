@@ -18,27 +18,34 @@ body {
   flex-wrap: wrap;
 }
 .navBar h1 {
+  display: flex;
+  width: 45%;
   justify-content: left;
-  padding: 8px;
+  padding: 1%;
   color: #dd614a;
   -webkit-text-stroke: 1px #252525;
   text-shadow: 3px 3px 0px #1282a2, 2.5px 2.5px 0px #1282a2, 2px 2px 0px #1282a2, 1.5px 1.5px 0px #1282a2, 1px 1px 0px #1282a2, 0.5px 0.5px 0px #1282a2;
 }
 .navBar nav {
-  padding: 17px;
+  display: flex;
+  padding: 1%;
+  width: 50%;
+  justify-content: right;
 }
 .navBar nav button {
   background-color: #252525;
   color: #dd614a;
   border-radius: 10px;
   border-color: #909090;
+  height: 35px;
+  padding: 0%;
 }
 .navBar nav a {
+  font-size: large;
   text-decoration: none;
-  padding: 8px;
+  padding-left: 1.5%;
   color: #e1e6e1;
   justify-content: right;
-  font-size: large;
   font-weight: bold;
   -webkit-text-stroke: 0.5px #252525;
   text-shadow: 3px 3px 0px #dd614a, 2.5px 2.5px 0px #dd614a, 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
@@ -64,9 +71,9 @@ body {
   width: 45%;
 }
 .homePage .intro h1 {
-  padding: 20px;
-  padding-top: 100px;
-  max-width: 45%;
+  padding: 2%;
+  padding-top: 10%;
+  width: 45%;
   -webkit-text-stroke: 1px #1282a2;
   color: #252525;
 }
@@ -74,16 +81,19 @@ body {
   max-width: 600px;
   border: 7px solid #1282a2;
   border-radius: 225px;
-  min-width: 450px;
+  width: 30%;
+  height: 10%;
 }
 .homePage .about {
   padding: 15px;
   padding-bottom: 50px;
 }
 .homePage .about h1 {
+  display: flex;
   color: #dd614a;
   padding: 50px;
   -webkit-text-stroke: 1px #252525;
+  justify-content: center;
 }
 .homePage .about p {
   font-size: large;
@@ -92,23 +102,31 @@ body {
   padding: 15px;
 }
 .experiencePage .quote {
-  padding: 100px;
+  padding: 5%;
   background-color: #1282a2;
   border-radius: 10px;
   color: #e1e6e1;
   border: 5px solid #dd614a;
   -webkit-text-stroke: 1px #252525;
+  align-content: center;
 }
-.experiencePage .quote h5 {
-  right: -500px;
+.experiencePage .quote h1 {
+  display: flex;
+  justify-content: center;
+}
+.experiencePage .quote h4 {
   color: #252525;
   -webkit-text-stroke: 0px;
+  display: flex;
+  justify-content: center;
 }
 .experiencePage .story {
-  padding: 50px;
+  padding: 2%;
   font-weight: bold;
 }
 .experiencePage .story h1 {
+  display: flex;
+  justify-content: center;
   border-bottom: 3px solid #252525;
   -webkit-text-stroke: 1px #252525;
   padding-bottom: 50px;
@@ -118,12 +136,23 @@ body {
   padding: 25px;
 }
 .experiencePage .experience {
-  padding: 50px;
+  padding: 2%;
 }
 .experiencePage .experience h1 {
+  display: flex;
+  justify-content: center;
   padding-bottom: 50px;
   color: #dd614a;
   border-bottom: 3px solid #252525;
+  -webkit-text-stroke: 1px #252525;
+}
+.experiencePage .experience .download {
+  padding: 1%;
+  text-align: center;
+}
+.experiencePage .experience .download a {
+  text-decoration-color: #1282a2;
+  color: #dd614a;
   -webkit-text-stroke: 1px #252525;
 }
 .experiencePage .experience .singleJob {
@@ -158,9 +187,11 @@ body {
   margin-left: -1em;
 }
 .experiencePage .education {
-  padding: 50px;
+  padding: 2%;
 }
 .experiencePage .education h1 {
+  display: flex;
+  justify-content: center;
   color: #dd614a;
   padding-bottom: 50px;
   border-bottom: 3px solid #252525;
@@ -179,10 +210,15 @@ body {
 .contact {
   padding: 50px;
 }
-.contact img {
-  max-width: 700px;
+.contact .img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contact .img img {
+  max-width: 50%;
   border: 7px solid #252525;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 .contact .info h2 {
   text-align: left;
@@ -236,15 +272,19 @@ body {
   text-decoration: none;
 }
 .projects .singleProject {
-  padding: 25px;
+  padding: 1.5%;
+  justify-content: center;
 }
 .projects .singleProject h2 {
   padding: 15px;
   color: #252525;
+  text-align: center;
+  width: 100%;
   text-shadow: 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
 }
 .projects .singleProject form {
   padding: 15px;
+  text-align: center;
 }
 .projects .singleProject form input {
   background-color: #1282a2;
@@ -255,8 +295,11 @@ body {
 }
 .projects .singleProject p {
   color: #252525;
+  text-align: center;
 }
-.projects .singleProject iframe {
+.projects .singleProject .video {
+  display: flex;
+  justify-content: center;
   padding: 15px;
 }
 body[data-theme="dark"] {
@@ -296,7 +339,7 @@ body[data-theme="dark"] .experiencePage .quote {
   border: 5px solid #1282a2;
   -webkit-text-stroke: 1px #e1e6e1;
 }
-body[data-theme="dark"] .experiencePage .quote h5 {
+body[data-theme="dark"] .experiencePage .quote h4 {
   color: #e1e6e1;
   align-items: right;
   -webkit-text-stroke: 0px;

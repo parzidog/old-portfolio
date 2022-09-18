@@ -28,7 +28,9 @@ function Projects(){
                         <form action={project.repo}>
                             <input type="submit" value="See this repo"/><br/>
                         </form>
-                        <iframe width="700" height="394" src={project.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div className="video">
+                            <iframe width="560" height="315" src={project.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 )
             })}

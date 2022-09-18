@@ -83,8 +83,8 @@ const schools=[
     return(
         <div className="experiencePage">
             <div className="quote">
-                <h1>"Make everything as simple as possible, but not simpler."</h1>
-                <h5>-Albert Einstein</h5>
+                <h1>“In order to be irreplaceable one must always be different.”</h1>
+                <h4>-Coco Chanel</h4>
             </div>
             <div className="story">
                 <h1><Typewriter
@@ -105,7 +105,11 @@ const schools=[
                             loop: true,
                             deleteSpeed: 2,
                         }}
-                    /></h1>
+                    />
+                </h1>
+                <h2 className="download">
+                    <a href="resume.pdf" download>Download Resume</a>
+                </h2>
                 {jobs.map(job=>{
                     return(
                         <div className="singleJob">
