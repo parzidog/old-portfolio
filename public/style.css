@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  text-align: center;
 }
 html,
 body {
@@ -10,7 +11,7 @@ body {
   border-bottom: 2.5px solid #e1e6e1;
   top: 0;
   left: 0;
-  height: 60px;
+  height: fit-content;
   width: 100%;
   background-color: #252525;
   justify-content: space-between;
@@ -28,6 +29,7 @@ body {
 }
 .navBar nav {
   display: flex;
+  flex-wrap: wrap;
   padding: 1%;
   width: 50%;
   justify-content: right;
@@ -37,13 +39,16 @@ body {
   color: #dd614a;
   border-radius: 10px;
   border-color: #909090;
-  height: 35px;
-  padding: 0%;
+  height: fit-content;
+  padding: 0.5%;
+  margin-right: 0.5%;
 }
 .navBar nav a {
+  display: flex;
+  flex-wrap: wrap;
   font-size: large;
   text-decoration: none;
-  padding-left: 1.5%;
+  padding: 0.75%;
   color: #e1e6e1;
   justify-content: right;
   font-weight: bold;
@@ -59,8 +64,8 @@ body {
   position: relative;
 }
 .homePage .intro {
-  padding: 50px;
-  padding-top: 75px;
+  padding: 10%;
+  padding-top: 15%;
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
@@ -71,32 +76,33 @@ body {
   width: 45%;
 }
 .homePage .intro h1 {
-  padding: 2%;
-  padding-top: 10%;
+  padding: 1%;
+  padding-top: 7%;
   width: 45%;
   -webkit-text-stroke: 1px #1282a2;
   color: #252525;
+  text-align: center;
 }
 .homePage .intro img {
-  max-width: 600px;
-  border: 7px solid #1282a2;
+  max-width: 45%;
+  border: 7.5px solid #1282a2;
   border-radius: 225px;
-  width: 30%;
   height: 10%;
 }
 .homePage .about {
-  padding: 15px;
-  padding-bottom: 50px;
+  padding: 3%;
+  padding-bottom: 7.5%;
 }
 .homePage .about h1 {
   display: flex;
   color: #dd614a;
-  padding: 50px;
+  padding: 10%;
   -webkit-text-stroke: 1px #252525;
   justify-content: center;
 }
-.homePage .about p {
-  font-size: large;
+.homePage .about h3 {
+  font-size: larger;
+  text-align: center;
 }
 .experiencePage {
   padding: 15px;
@@ -129,11 +135,11 @@ body {
   justify-content: center;
   border-bottom: 3px solid #252525;
   -webkit-text-stroke: 1px #252525;
-  padding-bottom: 50px;
+  padding: 3%;
   color: #dd614a;
 }
 .experiencePage .story p {
-  padding: 25px;
+  padding: 5%;
 }
 .experiencePage .experience {
   padding: 2%;
@@ -157,13 +163,14 @@ body {
 }
 .experiencePage .experience .singleJob {
   width: 100%;
-  text-align: left;
   padding: 25px;
 }
 .experiencePage .experience .singleJob .companyName {
+  text-align: left;
   color: #dd614a;
 }
 .experiencePage .experience .singleJob .date {
+  text-align: left;
   font-weight: bold;
   color: #1282a2;
 }
@@ -171,10 +178,15 @@ body {
   padding: 25px;
 }
 .experiencePage .experience .singleJob .jobDetails h4 {
+  text-align: left;
   color: #dd614a;
 }
 .experiencePage .experience .singleJob .jobDetails ul {
+  text-align: left;
   list-style: none;
+}
+.experiencePage .experience .singleJob .jobDetails li {
+  text-align: left;
 }
 .experiencePage .experience .singleJob .jobDetails ul li::before {
   content: "\2022";
@@ -198,14 +210,18 @@ body {
   -webkit-text-stroke: 1px #252525;
 }
 .experiencePage .education .singleInstitute {
-  text-align: left;
-  padding: 15px;
+  padding: 2.5%;
 }
 .experiencePage .education .singleInstitute .instituteName {
+  text-align: left;
   color: #dd614a;
 }
 .experiencePage .education .singleInstitute .date {
+  text-align: left;
   font-weight: bold;
+}
+.experiencePage .education .singleInstitute .certification {
+  text-align: left;
 }
 .contact {
   padding: 50px;
@@ -222,7 +238,7 @@ body {
 }
 .contact .info h2 {
   text-align: left;
-  padding: 25px;
+  padding: 2%;
 }
 .contact .info h2 span {
   text-align: right;
@@ -276,14 +292,14 @@ body {
   justify-content: center;
 }
 .projects .singleProject h2 {
-  padding: 15px;
+  padding: 2.5%;
   color: #252525;
   text-align: center;
   width: 100%;
   text-shadow: 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
 }
 .projects .singleProject form {
-  padding: 15px;
+  padding: 2.5%;
   text-align: center;
 }
 .projects .singleProject form input {
@@ -300,7 +316,7 @@ body {
 .projects .singleProject .video {
   display: flex;
   justify-content: center;
-  padding: 15px;
+  padding: 2.5%;
 }
 body[data-theme="dark"] {
   background-color: #252525;

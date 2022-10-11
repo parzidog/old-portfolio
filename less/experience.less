@@ -26,18 +26,18 @@
     .story {
         padding: 2%;
         font-weight: bold;
-
+        
         h1 {
             display: flex;
             justify-content: center;
             border-bottom: 3px solid @backgroundDark;
             -webkit-text-stroke: 1px @backgroundDark;
-            padding-bottom: 50px;
+            padding: 3%;
             color: @secondaryFont;
         }
-
+        
         p {
-            padding: 25px;
+            padding: 5%;
             ;
         }
     }
@@ -63,32 +63,38 @@
 
             }
         }
-
+        
         .singleJob {
             width: 100%;
-            text-align: left;
             padding: 25px;
-
+            
             .companyName {
+                text-align: left;
                 color: @secondaryFont;
             }
-
+            
             .date {
+                text-align: left;
                 font-weight: bold;
                 color: @mainFont;
             }
 
             .jobDetails {
-                h4 {
-                    color: @secondaryFont;
-                }
-
                 padding: 25px;
 
+                h4 {
+                    text-align: left;
+                    color: @secondaryFont;
+                }
+                
                 ul {
+                    text-align: left;
                     list-style: none;
                 }
-
+                li{
+                    text-align: left;
+                }
+                
                 ul li::before {
                     content: "\2022";
                     /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -116,15 +122,20 @@
         }
 
         .singleInstitute {
-            text-align: left;
-            padding: 15px;
-
+            padding: 2.5%;
+            
             .instituteName {
+                text-align: left;
                 color: @secondaryFont
             }
-
+            
             .date {
+                text-align: left;
                 font-weight: bold;
+            }
+            
+            .certification{
+                text-align: left;
             }
         }
     }

@@ -4646,11 +4646,11 @@ function Projects() {
   // const projects=useSelector(selectProjects)
   var projects = [{
     name: 'This Website',
-    description: 'This website uses a combination of React and PSQL to render and store my personal career information in order to showcase my abilities and experience. I use PSQL to make updates simple and efficient while using a modular rendering to increase the speed and efficiency of the website itself.',
+    description: 'This website uses a combination of  LESS, React and PSQL to render and store my personal career information in order to showcase my abilities and experience. I use PSQL to make updates simple and efficient while using a modular rendering with React to increase the speed and efficiency of the website itself.',
     repo: 'https://github.com/parzidog/portfolio.git'
   }, {
     name: 'Student / Campus Database',
-    description: 'This website utilizes React and PSQL to render and store students and campuses while utilizing the relationship between the two. This concept is a modular design that is meant to increase performance and maximize efficiency while adding, removing or updating information directly from the UI.',
+    description: 'This was one of my first "real" project as a software engineer. It is not currently deployed, but it utilizes React and PSQL to render and store students and campuses while utilizing the relationship between the two. This concept is a modular design that is meant to increase performance and maximize efficiency while adding, removing or updating information directly from the UI.',
     repo: 'https://github.com/parzidog/2208-jpfp.git',
     video: "https://www.youtube.com/embed/_UeV63LfzYY"
   }];
@@ -4658,7 +4658,8 @@ function Projects() {
     className: "projects"
   }, projects.map(function (project) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "singleProject"
+      className: "singleProject",
+      key: project.name
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, project.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, project.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
       action: project.repo
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
@@ -4671,9 +4672,9 @@ function Projects() {
       height: "315",
       src: project.video,
       title: "YouTube video player",
-      frameborder: "0",
+      frameBorder: "0",
       allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-      allowfullscreen: true
+      allowFullScreen: true
     })));
   }));
 }
@@ -4755,7 +4756,7 @@ function Button() {
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     onClick: handleToggle
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Change Theme")));
+  }, "Change Theme"));
 }
 
 /***/ }),
