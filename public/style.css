@@ -18,53 +18,55 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.navBar h1 {
-  display: flex;
+.navBar div {
   max-width: 45%;
-  justify-content: left;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navBar div h1 {
+  display: flex;
+  flex-wrap: nowrap;
   padding: 1%;
+  padding-right: 2%;
+  min-width: fit-content;
   color: #dd614a;
   -webkit-text-stroke: 1px #252525;
   text-shadow: 3px 3px 0px #1282a2, 2.5px 2.5px 0px #1282a2, 2px 2px 0px #1282a2, 1.5px 1.5px 0px #1282a2, 1px 1px 0px #1282a2, 0.5px 0.5px 0px #1282a2;
 }
-.navBar nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1%;
-  justify-content: right;
-  padding-right: 3.5%;
-}
-.navBar nav button {
+.navBar div button {
   background-color: #252525;
   color: #dd614a;
   border-radius: 10px;
   border-color: #909090;
   height: fit-content;
-  padding: 0.5%;
+  margin: 1%;
   margin-right: 0.5%;
 }
-.navBar nav div {
+.navBar nav {
   display: flex;
   flex-wrap: nowrap;
-  width: fit-content;
+  padding: 1%;
+  padding-right: 3.5%;
 }
-.navBar nav div a {
+.navBar nav a {
   font-size: large;
   text-decoration: none;
   padding: 0.75%;
   color: #e1e6e1;
-  justify-content: right;
   font-weight: bold;
   -webkit-text-stroke: 0.5px #252525;
   text-shadow: 3px 3px 0px #dd614a, 2.5px 2.5px 0px #dd614a, 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
 }
 @media only screen and (max-device-width: 800px) {
-  .navBar h1 {
-    padding-top: 3%;
-    font-size: small;
+  .navBar {
+    justify-content: space-around;
   }
-  .navBar nav button {
-    font-size: smaller;
+  .navBar div h1 {
+    padding-top: 3%;
+    font-size: medium;
+  }
+  .navBar div button {
+    font-size: x-small;
   }
   .navBar nav a {
     font-size: small;

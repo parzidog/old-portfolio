@@ -16,15 +16,15 @@ export function darkMode(mode){
 function NavBar(){
     return(
         <div className="navBar">
-            <h1>Kenneth Schaefer</h1>
-            <nav>
+            <div>
+              <h1>Kenneth Schaefer</h1>
               <Theme />
-              <div>
+            </div>
+            <nav>
                 <a href="/"> Home </a>
                 <a href="/experience"> Experience </a>
                 <a href="/projects"> Projects </a>
                 <a href="/contact"> Contact </a>
-              </div>
             </nav>
         </div>
     )
