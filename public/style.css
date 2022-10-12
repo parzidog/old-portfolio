@@ -12,7 +12,7 @@ body {
   top: 0;
   left: 0;
   height: fit-content;
-  width: 100%;
+  width: 100vw;
   background-color: #252525;
   justify-content: space-between;
   display: flex;
@@ -46,12 +46,12 @@ body {
   display: flex;
   flex-wrap: nowrap;
   padding: 1%;
-  padding-right: 3.5%;
+  min-width: 400px;
 }
 .navBar nav a {
   font-size: large;
   text-decoration: none;
-  padding: 0.75%;
+  padding: 2%;
   color: #e1e6e1;
   font-weight: bold;
   -webkit-text-stroke: 0.5px #252525;
@@ -67,6 +67,10 @@ body {
   }
   .navBar div button {
     font-size: x-small;
+  }
+  .navBar nav {
+    min-width: 300px;
+    justify-content: center;
   }
   .navBar nav a {
     font-size: small;
@@ -120,6 +124,7 @@ body {
   .intro {
     padding: 5%;
     max-width: 100%;
+    min-height: 100vh;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -393,6 +398,9 @@ body[data-theme="dark"] .homePage .intro h1 {
 }
 body[data-theme="dark"] .homePage .intro img {
   border: 7px solid #dd614a;
+}
+body[data-theme="dark"] .homePage .about {
+  background-color: #252525;
 }
 body[data-theme="dark"] .homePage .about h1 {
   color: #1282a2;
