@@ -1,13 +1,15 @@
 .contact {
-    padding: 50px;
+    padding: 2.5%;
+    height: 100vh;
 
     .img {
         display: flex;
         justify-content: center;
         width: 100%;
+        padding-bottom: 3%;
 
         img {
-            max-width: 50%;
+            max-width: 55%;
             border: 7px solid @backgroundDark;
             border-radius: 50px;
         }
@@ -16,7 +18,7 @@
     .info {
         h2 {
             text-align: left;
-            padding: 2%;
+            padding: 1%;
 
             span {
                 text-align: right;
@@ -24,17 +26,19 @@
         }
 
         .phone {
+            justify-content: left;
+            text-align: left;
             .propertyName {
                 text-align: left;
                 display: inline-block;
-                width: 25%;
+                width: 20%;
                 color: @secondaryFont
             }
 
             .propertyValue {
                 display: inline-block;
                 text-align: right;
-                width: 65%;
+                width: 75%;
                 color: @mainFont
             }
         }
@@ -43,14 +47,14 @@
             .propertyName {
                 text-align: left;
                 display: inline-block;
-                width: 25%;
+                width: 20%;
                 color: @mainFont
             }
 
             .propertyValue {
                 display: inline-block;
                 text-align: right;
-                width: 65%;
+                width: 75%;
                 color: @secondaryFont;
 
                 a {
@@ -64,14 +68,14 @@
             .propertyName {
                 text-align: left;
                 display: inline-block;
-                width: 25%;
+                width: 20%;
                 color: @secondaryFont
             }
 
             .propertyValue {
                 display: inline-block;
                 text-align: right;
-                width: 65%;
+                width: 75%;
                 color: @mainFont;
 
                 a {
@@ -82,3 +86,12 @@
         }
     }
 }
+
+@media only screen 
+and (max-device-width: 600px)
+ {
+    .propertyName, .propertyValue{
+        padding-top: 5%;
+        font-size: medium;
+    }
+ }

@@ -4309,12 +4309,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Navbar */ "./src/components/Navbar.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/index.js");
-/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Home */ "./src/components/Home.js");
-/* harmony import */ var _components_Experience__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Experience */ "./src/components/Experience.js");
-/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Contact */ "./src/components/Contact.js");
-/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Projects */ "./src/components/Projects.js");
+/* harmony import */ var _components_Navbar_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Navbar.jsx */ "./src/components/Navbar.jsx");
+/* harmony import */ var _components_Home_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Home.jsx */ "./src/components/Home.jsx");
+/* harmony import */ var _components_Experience_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Experience.jsx */ "./src/components/Experience.jsx");
+/* harmony import */ var _components_Contact_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Contact.jsx */ "./src/components/Contact.jsx");
+/* harmony import */ var _components_Projects_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Projects.jsx */ "./src/components/Projects.jsx");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _features_jobsSlice__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./features/jobsSlice */ "./src/features/jobsSlice.js");
 /* harmony import */ var _features_projectsSlice__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./features/projectsSlice */ "./src/features/projectsSlice.js");
@@ -4342,22 +4342,22 @@ function App() {
   }, [dispatch]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "App",
-    id: _components_Navbar__WEBPACK_IMPORTED_MODULE_1__.theme
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+    id: _components_Navbar_jsx__WEBPACK_IMPORTED_MODULE_1__.theme
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Navbar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     index: true,
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Home_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/home",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Home_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/experience",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Experience__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Experience_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/projects",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Projects__WEBPACK_IMPORTED_MODULE_5__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Projects_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/contact",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_4__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Contact_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null)
   })));
 }
 
@@ -4365,10 +4365,10 @@ function App() {
 
 /***/ }),
 
-/***/ "./src/components/Contact.js":
-/*!***********************************!*\
-  !*** ./src/components/Contact.js ***!
-  \***********************************/
+/***/ "./src/components/Contact.jsx":
+/*!************************************!*\
+  !*** ./src/components/Contact.jsx ***!
+  \************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4416,10 +4416,10 @@ function Contact() {
 
 /***/ }),
 
-/***/ "./src/components/Experience.js":
-/*!**************************************!*\
-  !*** ./src/components/Experience.js ***!
-  \**************************************/
+/***/ "./src/components/Experience.jsx":
+/*!***************************************!*\
+  !*** ./src/components/Experience.jsx ***!
+  \***************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4539,10 +4539,10 @@ function Experience() {
 
 /***/ }),
 
-/***/ "./src/components/Home.js":
-/*!********************************!*\
-  !*** ./src/components/Home.js ***!
-  \********************************/
+/***/ "./src/components/Home.jsx":
+/*!*********************************!*\
+  !*** ./src/components/Home.jsx ***!
+  \*********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4580,10 +4580,10 @@ function Home() {
 
 /***/ }),
 
-/***/ "./src/components/Navbar.js":
-/*!**********************************!*\
-  !*** ./src/components/Navbar.js ***!
-  \**********************************/
+/***/ "./src/components/Navbar.jsx":
+/*!***********************************!*\
+  !*** ./src/components/Navbar.jsx ***!
+  \***********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4611,7 +4611,7 @@ function darkMode(mode) {
 function NavBar() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "navBar"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Kenneth Schaefer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Theme__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Kenneth Schaefer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Theme__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "/"
   }, " Home "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "/experience"
@@ -4619,17 +4619,17 @@ function NavBar() {
     href: "/projects"
   }, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "/contact"
-  }, " Contact ")));
+  }, " Contact "))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
 
 /***/ }),
 
-/***/ "./src/components/Projects.js":
-/*!************************************!*\
-  !*** ./src/components/Projects.js ***!
-  \************************************/
+/***/ "./src/components/Projects.jsx":
+/*!*************************************!*\
+  !*** ./src/components/Projects.jsx ***!
+  \*************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

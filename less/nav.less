@@ -1,16 +1,5 @@
 .navBar {
     border-bottom: 2.5px solid @backgroundLight;
-
-    h1 {
-        display: flex;
-        width: 45%;
-        justify-content: left;
-        padding: 1%;
-        color: @secondaryFont;
-        -webkit-text-stroke: 1px @backgroundDark;
-        text-shadow: 3px 3px 0px @mainFont, 2.5px 2.5px 0px @mainFont, 2px 2px 0px @mainFont, 1.5px 1.5px 0px @mainFont, 1px 1px 0px @mainFont, 0.5px 0.5px 0px @mainFont;
-    }
-
     top: 0;
     left: 0;
     height: fit-content;
@@ -18,14 +7,26 @@
     background-color: @backgroundDark;
     justify-content: space-between;
 
+    h1 {
+        display: flex;
+        max-width: 45%;
+        justify-content: left;
+        padding: 1%;
+        color: @secondaryFont;
+        -webkit-text-stroke: 1px @backgroundDark;
+        text-shadow: 3px 3px 0px @mainFont, 2.5px 2.5px 0px @mainFont, 2px 2px 0px @mainFont, 1.5px 1.5px 0px @mainFont, 1px 1px 0px @mainFont, 0.5px 0.5px 0px @mainFont;
+    }
+
+
     .initFlex();
 
     nav {
         display: flex;
         flex-wrap: wrap;
         padding: 1%;
-        width: 50%;
         justify-content: right;
+        padding-right: 3.5%;
+        
         
         button {
             background-color: @backgroundDark;
@@ -37,23 +38,39 @@
             margin-right: 0.5%;
         }
         
-        a {
+        div{
             display: flex;
-            flex-wrap: wrap;
-            font-size: large;
-            text-decoration: none;
-            padding: 0.75%;
-            color: @backgroundLight;
-            justify-content: right;
-            font-weight: bold;
-            -webkit-text-stroke: 0.5px @backgroundDark;
-            text-shadow: 3px 3px 0px @secondaryFont, 2.5px 2.5px 0px @secondaryFont, 2px 2px 0px @secondaryFont, 1.5px 1.5px 0px @secondaryFont, 1px 1px 0px @secondaryFont, 0.5px 0.5px 0px @secondaryFont;
+            flex-wrap: nowrap;
+            width: fit-content;
+                a {
+                    font-size: large;
+                    text-decoration: none;
+                    padding: 0.75%;
+                    color: @backgroundLight;
+                    justify-content: right;
+                    font-weight: bold;
+                    -webkit-text-stroke: 0.5px @backgroundDark;
+                    text-shadow: 3px 3px 0px @secondaryFont, 2.5px 2.5px 0px @secondaryFont, 2px 2px 0px @secondaryFont, 1.5px 1.5px 0px @secondaryFont, 1px 1px 0px @secondaryFont, 0.5px 0.5px 0px @secondaryFont;
+            }
         }
     }
+}
 
-    @media screen and (min-width: 600px) {
-        height: @desktopHeight;
+@media only screen 
+and (max-device-width: 800px)
+{
+    .navBar{
+        h1{
+            padding-top: 3%;
+            font-size: small;
+        }
+        nav{
+            button{
+                font-size: smaller;
+            }
+            a{
+                font-size: small;
+            }
+        }
     }
-
-
 }
