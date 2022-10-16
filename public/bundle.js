@@ -4343,7 +4343,10 @@ function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "App",
     id: _components_Navbar_jsx__WEBPACK_IMPORTED_MODULE_1__.theme
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Navbar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+    path: "/",
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Navbar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     index: true,
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Home_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
@@ -4358,7 +4361,7 @@ function App() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/contact",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Contact_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null)
-  })));
+  }))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
@@ -4426,20 +4429,17 @@ function Contact() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var typewriter_effect__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! typewriter-effect */ "./node_modules/typewriter-effect/dist/react.js");
-/* harmony import */ var typewriter_effect__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(typewriter_effect__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _features_jobsSlice__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../features/jobsSlice */ "./src/features/jobsSlice.js");
-/* harmony import */ var _features_schoolsSlice__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../features/schoolsSlice */ "./src/features/schoolsSlice.js");
+/* harmony import */ var typewriter_effect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! typewriter-effect */ "./node_modules/typewriter-effect/dist/react.js");
+/* harmony import */ var typewriter_effect__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(typewriter_effect__WEBPACK_IMPORTED_MODULE_1__);
+ // import { useSelector } from "react-redux";
 
-
-
-
-
+ // import {selectJobs} from '../features/jobsSlice'
+// import {selectSchools} from '../features/schoolsSlice'
 
 function Experience() {
   // const jobs = useSelector(selectJobs)
   // const schools = useSelector(selectSchools)
+  var num = 0;
   var jobs = [{
     name: 'Donald Jones Consulting',
     title: 'General Manager / IT Consultant',
@@ -4480,7 +4480,7 @@ function Experience() {
     className: "quote"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "\u201CIn order to be irreplaceable one must always be different.\u201D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "-Coco Chanel")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "story"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((typewriter_effect__WEBPACK_IMPORTED_MODULE_2___default()), {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((typewriter_effect__WEBPACK_IMPORTED_MODULE_1___default()), {
     options: {
       strings: ['MY STORY'],
       autoStart: true,
@@ -4489,7 +4489,7 @@ function Experience() {
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I am a lifelong student above all else. I am also a Marine Corps veteran with a degree in engineering and a true passion for computer programming. I spent more than 7 years in the Marine Corps with a top-secret security clearance working as a hydraulic and structures mechanic on F/A-18 and F-35 fighter jets where I successfully coordinated the duties of over 50 Marines while conducting the duties of the department head and running the phased maintenance program, one of the largest programs in military aviation maintenance. As a result of my abilities and efforts, I was awarded the Navy/Marine Corps Achievement medal on 2 separate occasions, as well as numerous other awards and commendations, including the multiple Good Conduct medals and Letters of Commendation. After leaving military service, I worked as a foreman for a commercial construction company where I simultaneously ran up to 3 job sites before deciding to go back to school and obtain my degree in engineering while simultaneously working up to three jobs. It was at this time that I discovered my love for computers and computer programming. While attending college full-time, I taught myself C/C++, Python, HTML and CSS programming languages before deciding to pursue a formal education in Software Engineering with a focus in Javascript and web development.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "experience"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((typewriter_effect__WEBPACK_IMPORTED_MODULE_2___default()), {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((typewriter_effect__WEBPACK_IMPORTED_MODULE_1___default()), {
     options: {
       strings: ['EXPERIENCE'],
       autoStart: true,
@@ -4503,7 +4503,8 @@ function Experience() {
     download: true
   }, "Download Resume")), jobs.map(function (job) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "singleJob"
+      className: "singleJob",
+      key: job.name
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
       className: "companyName"
     }, job.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -4511,11 +4512,14 @@ function Experience() {
     }, job.date), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
       className: "jobDetails"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, job.description.map(function (bullet) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, bullet);
+      num += 1;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+        key: num
+      }, bullet);
     }))));
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "education"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((typewriter_effect__WEBPACK_IMPORTED_MODULE_2___default()), {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((typewriter_effect__WEBPACK_IMPORTED_MODULE_1___default()), {
     options: {
       strings: ['EDUCATION'],
       autoStart: true,
@@ -4524,7 +4528,8 @@ function Experience() {
     }
   })), schools.map(function (school) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "singleInstitute"
+      className: "singleInstitute",
+      key: school.name
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
       className: "date"
     }, school.date), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
@@ -4595,12 +4600,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Theme */ "./src/components/Theme.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/index.js");
 
- // import { darkMode, theme } from "../App";
+
 
 var theme = '';
 function darkMode(mode) {
-  // document.body.classList.toggle("darkMode")
   if (mode === 'darkMode') {
     mode = '';
   } else {
@@ -4609,17 +4615,17 @@ function darkMode(mode) {
 }
 
 function NavBar() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "navBar"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Kenneth Schaefer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Theme__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/"
-  }, " Home "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/experience"
-  }, " Experience "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/projects"
-  }, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/contact"
-  }, " Contact ")));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Kenneth Schaefer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Theme__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "home"
+  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "experience"
+  }, " Experience "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "projects"
+  }, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "contact"
+  }, " Contact "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Outlet, null));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
@@ -4636,21 +4642,19 @@ function NavBar() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _features_projectsSlice__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../features/projectsSlice */ "./src/features/projectsSlice.js");
-
-
-
+ // import { useSelector } from "react-redux";
+// import { selectProjects } from "../features/projectsSlice";
 
 function Projects() {
   // const projects=useSelector(selectProjects)
   var projects = [{
     name: 'This Website',
-    description: 'This website uses a combination of  LESS, React and PSQL to render and store my personal career information in order to showcase my abilities and experience. I use PSQL to make updates simple and efficient while using a modular rendering with React to increase the speed and efficiency of the website itself.',
-    repo: 'https://github.com/parzidog/portfolio.git'
+    description: 'This website uses a combination of  LESS, React and PostgreSQL to render and store my personal career information in order to showcase my abilities and experience. I use PSQL to make updates simple and efficient while using nested routes and a modular rendering with React to increase the speed and efficiency of the website itself. This will be a never ending project, and I am currently working to incorporate an interactive 3D environment utilizing ThreeJS',
+    repo: 'https://github.com/parzidog/portfolio.git',
+    website: 'https://www.parzidog.com'
   }, {
     name: 'Student / Campus Database',
-    description: 'This was one of my first "real" project as a software engineer. It is not currently deployed, but it utilizes React and PSQL to render and store students and campuses while utilizing the relationship between the two. This concept is a modular design that is meant to increase performance and maximize efficiency while adding, removing or updating information directly from the UI.',
+    description: 'This was one of my first "real" projects as a software engineer. It is not currently deployed, but it utilizes React and PSQL to render and store students and campuses while utilizing the relationship between the two. This concept is a modular design that is meant to increase performance and maximize efficiency while adding, removing or updating information directly from the UI. If I were to do this project again, I would make better use of nested routes within React Router and I would include a better design using the LESS framework. My biggest lesson from this project was the importance of error handling and truly modular designs.',
     repo: 'https://github.com/parzidog/2208-jpfp.git',
     video: "https://www.youtube.com/embed/_UeV63LfzYY"
   }];

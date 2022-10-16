@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import Typewriter from 'typewriter-effect';
-import {selectJobs} from '../features/jobsSlice'
-import {selectSchools} from '../features/schoolsSlice'
+// import {selectJobs} from '../features/jobsSlice'
+// import {selectSchools} from '../features/schoolsSlice'
 
 function Experience(){
 
     // const jobs = useSelector(selectJobs)
     // const schools = useSelector(selectSchools)
+    let num = 0;
     const jobs =[
     {
         name: 'Donald Jones Consulting',
@@ -112,14 +113,15 @@ const schools=[
                 </h2>
                 {jobs.map(job=>{
                     return(
-                        <div className="singleJob">
+                        <div className="singleJob" key={job.name}>
                             <h3 className="companyName">{job.name}</h3>
                             <p className="date">{job.date}</p>
                             <div className="jobDetails">
                                 <ul>
                                     {job.description.map(bullet=>{
+                                        num+=1;
                                         return(
-                                            <li>{bullet}</li>
+                                            <li key={num}>{bullet}</li>
                                         )
                                     })}
                                 </ul>
@@ -139,10 +141,10 @@ const schools=[
                     /></h1>
                 {schools.map(school=>{
                     return( 
-                        <div className="singleInstitute">
-                        <p className="date">{school.date}</p>
-                        <h4 className="instituteName">{school.name}</h4>
-                        <h3 className="certification">{school.certification}</h3>
+                        <div className="singleInstitute" key={school.name}>
+                            <p className="date">{school.date}</p>
+                            <h4 className="instituteName">{school.name}</h4>
+                            <h3 className="certification">{school.certification}</h3>
                         </div>
                     )
                     })

@@ -1,32 +1,34 @@
 import React from "react";
-import Theme from './Theme'
-// import { darkMode, theme } from "../App";
+import Theme from './Theme';
+import { Link, Outlet } from "react-router-dom";
 
-export let theme =''
+export let theme ='';
 
 export function darkMode(mode){
-      // document.body.classList.toggle("darkMode")
       if(mode === 'darkMode'){
-        mode = ''
+        mode = '';
       }else{
-        mode = 'darkMode'
+        mode = 'darkMode';
       }
   }
 
 function NavBar(){
     return(
+      <>
         <div className="navBar">
             <div>
               <h1>Kenneth Schaefer</h1>
               <Theme />
             </div>
             <nav>
-                <a href="/"> Home </a>
-                <a href="/experience"> Experience </a>
-                <a href="/projects"> Projects </a>
-                <a href="/contact"> Contact </a>
+                <Link to='home'>Home</Link>
+                <Link to='experience'> Experience </Link>
+                <Link to="projects"> Projects </Link>
+                <Link to="contact"> Contact </Link>
             </nav>
         </div>
+        <Outlet />
+      </>
     )
 }
 
