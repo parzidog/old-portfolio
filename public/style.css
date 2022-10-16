@@ -104,6 +104,7 @@ body {
   border: 7.5px solid #1282a2;
   border-radius: 225px;
   height: 10%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .homePage .about {
   padding: 2%;
@@ -147,6 +148,7 @@ body {
     border: 7.5px solid #1282a2;
     border-radius: 225px;
     height: 10%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
 }
 .experiencePage {
@@ -160,6 +162,7 @@ body {
   border: 5px solid #dd614a;
   -webkit-text-stroke: 1px #252525;
   align-content: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .experiencePage .quote h1 {
   display: flex;
@@ -282,6 +285,7 @@ body {
   max-width: 55%;
   border: 7px solid #252525;
   border-radius: 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .contact .info h2 {
   text-align: left;
@@ -398,6 +402,7 @@ body[data-theme="dark"] .homePage .intro h1 {
 }
 body[data-theme="dark"] .homePage .intro img {
   border: 7px solid #dd614a;
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.5);
 }
 body[data-theme="dark"] .homePage .about {
   background-color: #252525;
@@ -478,4 +483,5 @@ body[data-theme="dark"] .projects .singleProject p {
 }
 body[data-theme="dark"] .contact img {
   border: 7px solid #e1e6e1;
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.5);
 }
