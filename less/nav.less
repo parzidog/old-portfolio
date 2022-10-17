@@ -39,7 +39,9 @@
         flex-wrap: nowrap;
         padding: 1%;
         // padding-right: 4.5%;
-        min-width: 400px;
+        min-width: fit-content;
+        margin-right: 0%;
+        margin-left: auto;
         
         a {
             font-size: large;
@@ -51,6 +53,27 @@
             text-shadow: 3px 3px 0px @secondaryFont, 2.5px 2.5px 0px @secondaryFont, 2px 2px 0px @secondaryFont, 1.5px 1.5px 0px @secondaryFont, 1px 1px 0px @secondaryFont, 0.5px 0.5px 0px @secondaryFont;
         }
     }
+}
+
+svg{
+    max-height: 30px;
+}
+.hamburger{
+    background-color: @backgroundDark;
+    border: none;
+    margin-right: 0%;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .navigation-menu ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navigation-menu.expanded ul {
+    display: block;
+  }
 }
 
 @media only screen 

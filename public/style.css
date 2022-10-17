@@ -46,7 +46,9 @@ body {
   display: flex;
   flex-wrap: nowrap;
   padding: 1%;
-  min-width: 400px;
+  min-width: fit-content;
+  margin-right: 0%;
+  margin-left: auto;
 }
 .navBar nav a {
   font-size: large;
@@ -56,6 +58,25 @@ body {
   font-weight: bold;
   -webkit-text-stroke: 0.5px #252525;
   text-shadow: 3px 3px 0px #dd614a, 2.5px 2.5px 0px #dd614a, 2px 2px 0px #dd614a, 1.5px 1.5px 0px #dd614a, 1px 1px 0px #dd614a, 0.5px 0.5px 0px #dd614a;
+}
+svg {
+  max-height: 30px;
+}
+.hamburger {
+  background-color: #252525;
+  border: none;
+  margin-right: 0%;
+  margin-left: auto;
+}
+@media screen and (max-width: 800px) {
+  .navigation-menu ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navigation-menu.expanded ul {
+    display: block;
+  }
 }
 @media only screen and (max-device-width: 800px) {
   .navBar {
