@@ -16,7 +16,7 @@ export function darkMode(mode){
 
 function NavBar() {
   
-  const [width, setWidth] = useState(window.innerWidth);
+  let width = window.innerWidth;
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   if (width > 800) {

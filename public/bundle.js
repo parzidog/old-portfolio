@@ -4629,15 +4629,12 @@ function darkMode(mode) {
 }
 
 function NavBar() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(window.innerWidth),
-      _useState2 = _slicedToArray(_useState, 2),
-      width = _useState2[0],
-      setWidth = _useState2[1];
+  var width = window.innerWidth;
 
-  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-      _useState4 = _slicedToArray(_useState3, 2),
-      isNavExpanded = _useState4[0],
-      setIsNavExpanded = _useState4[1];
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      isNavExpanded = _useState2[0],
+      setIsNavExpanded = _useState2[1];
 
   if (width > 800) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
