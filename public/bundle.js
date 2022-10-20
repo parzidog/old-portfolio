@@ -4458,7 +4458,7 @@ function Experience() {
   }, {
     name: 'United States Marine Corps',
     title: 'Sergeant / Division Lead',
-    date: 'Devember 2010 - January 2018',
+    date: 'December 2010 - January 2018',
     description: ['Held a Top Secret security clearance from 2012 – 2018.', 'Overcame seemingly insurmountable odds to attain operational readiness on 2 separate occasions. As a result, was awarded the Navy and Marine Corps Achievement medal on each occasion.', 'Re-engineered the technological documentation process for the largest program in military aviation in order to improve document access and storage by 86% while removing the time needed for project management by 79%.', 'Cultivated an environment that encourages organizational readiness and individual mental health awareness.', 'upervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.']
   }];
   var schools = [{
