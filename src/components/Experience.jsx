@@ -13,52 +13,48 @@ function Experience(){
     {
         name: 'Donald Jones Consulting',
         title: 'General Manager / IT Consultant',
-        date: '2021-PRESENT',
+        date: 'September 2021 - PRESENT',
         description:[
-            'Enumerating and specifying procedures for the implementation, production and administration of written policies',
-            'Properly controlling the release of proprietary information by organizing and developing information systems',
-            'Providing meticulous reports and documentation for offsite owners of both the facility and the consultation company',
-            'Analyzing and adjusting work procedures for maximum efficiency',
-            'Effectively controlling costs through economical utilization of personnel, materials and equipment',
-            'Planning, forecasting, setting objectives and determining best courses of action for the facility',
-            'Developing enduring professional relationships with businesses and contractors'
+            'Managed a process re-engineering project to improve and consolidate end-to-end service processes.',
+            'Restructured communication flow among 28 facilities and cut down paperwork by 45%.',
+            'Controlled the release of proprietary information by organizing and developing secure information systems.',
+            'Analyzed and adjusted work procedures for the chief of operations that maximized production efficiency by 32%.',
+            'Planned, set and implemented facility goals while maintaining budget standards which led to a 1200% increase in facility utilization.',
         ]
     },
     {
         name: 'Trinity Executive Services',
-        title: 'Security Officer',
-        date: '2020',
+        title: 'Hospital Security Officer',
+        date: 'February 2020 - November 2020',
         description:[
-            'Coping effectively with pressure and tension between hospital staff and patients',
-            'Firmly and fairly managing problems and disruptions while maintaining empathy towards the feelings of all parties',
-            'Coordinating security protocols with both HIPAA and Joint Commission standards',
-            'Regularly assessing the development and effectiveness of subordinates while cultivating the strengths of individuals within the team',
+            'Implemented effective deescalation techniques that lowered the number of physical confrontations by 28% during the height of the COVID pandemic.',
+            'Coordinated security protocols to comply with both HIPAA and Joint Commission standards while protecting the doctors, nurses and patients of the facility.',
+            'Controlled the release of proprietary information by organizing and developing secure information systems.',
+            'Assessed the development and effectiveness of subordinates while cultivating the strengths of individuals within the team.',
         ]
     },
     {
         name: 'G3 Construction, inc.',
         title: 'Lead Commercial Foreman',
-        date: '2018-2020',
+        date: 'January 2018 - January 2020',
         description:[
-            'Planning, scheduling and assigning work for optimal distribution, staffing and efficiencies; consistently achieved deadlines, quality control goals, and produced quality inter-trade relations',
-            'Holding meetings with clients to discuss/negotiate general contracts, purchase orders and subcontract agreements',
-            'Closely monitoring budget variances and reports to maintain effective cost control',
+            'Planned, scheduled and assigned work for optimal distribution, staffing and production; consistently achieved deadlines, quality control goals, and produced quality inter-trade relations.',
+            'Negotiated general contracts, purchase orders and subcontract agreements with clients and subcontractors.',
+            'Supervised crews of up to 10 carpenters, journeymen, drywall hangers, and general labor personnel.',
             'Inspecting work in progress to ensure quality and conformity to contract and drawing specifications in accordance with federal guidelines',
-            'Supervising crews of up to 10 carpenters, journeymen, drywall hangers, and general labor personnel',
+            'nspected work in progress to ensure quality and conformity to contract and drawing specifications in accordance with state and federal guidelines.',
         ]
     },
     {
         name: 'United States Marine Corps',
-        title: 'Sergeant / Department Lead',
-        date: '2010-2018',
+        title: 'Sergeant / Division Lead',
+        date: 'Devember 2010 - January 2018',
         description:[
-            'Creating and implementing IT programs to maintain OSHA compliance while accepting responsibility for compliance of regulations.',
-            'Creating an environment that encourages organizational readiness',
-            'Maintaining morale and fostering relationships with both junior and senior Marines',
-            'Closely monitoring and regulating federal operational and security guidelines within the restrictions of my Top Secret security clearance',
-            'Assessing, organizing and arranging resources to effectively and efficiently maintain USMC and federal regulations',
-            'Delegating responsibilities to junior Marines based upon their abilities and strengths to efficiently promote organizational needs.',
-            'Successfully handled demands from superiors and subordinates',
+            'Held a Top Secret security clearance from 2012 – 2018.',
+            'Overcame seemingly insurmountable odds to attain operational readiness on 2 separate occasions. As a result, was awarded the Navy and Marine Corps Achievement medal on each occasion.',
+            'Re-engineered the technological documentation process for the largest program in military aviation in order to improve document access and storage by 86% while removing the time needed for project management by 79%.',
+            'Cultivated an environment that encourages organizational readiness and individual mental health awareness.',
+            'upervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.',
         ]
     },
 ];
