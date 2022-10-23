@@ -4454,12 +4454,12 @@ function Experience() {
     name: 'G3 Construction, inc.',
     title: 'Lead Commercial Foreman',
     date: 'January 2018 - January 2020',
-    description: ['Planned, scheduled and assigned work for optimal distribution, staffing and production; consistently achieved deadlines, quality control goals, and produced quality inter-trade relations.', 'Negotiated general contracts, purchase orders and subcontract agreements with clients and subcontractors.', 'Supervised crews of up to 10 carpenters, journeymen, drywall hangers, and general labor personnel.', 'Inspecting work in progress to ensure quality and conformity to contract and drawing specifications in accordance with federal guidelines', 'nspected work in progress to ensure quality and conformity to contract and drawing specifications in accordance with state and federal guidelines.']
+    description: ['Planned, scheduled and assigned work for optimal distribution, staffing and production; consistently achieved deadlines, quality control goals, and produced quality inter-trade relations.', 'Negotiated general contracts, purchase orders and subcontract agreements with clients and subcontractors.', 'Supervised crews of up to 10 carpenters, journeymen, drywall hangers, and general labor personnel.', 'Inspecting work in progress to ensure quality and conformity to contract and drawing specifications in accordance with federal guidelines', 'Inspected work in progress to ensure quality and conformity to contract and drawing specifications in accordance with state and federal guidelines.']
   }, {
     name: 'United States Marine Corps',
     title: 'Sergeant / Division Lead',
     date: 'December 2010 - January 2018',
-    description: ['Held a Top Secret security clearance from 2012 – 2018.', 'Overcame seemingly insurmountable odds to attain operational readiness on 2 separate occasions. As a result, was awarded the Navy and Marine Corps Achievement medal on each occasion.', 'Re-engineered the technological documentation process for the largest program in military aviation in order to improve document access and storage by 86% while removing the time needed for project management by 79%.', 'Cultivated an environment that encourages organizational readiness and individual mental health awareness.', 'upervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.']
+    description: ['Held a Top Secret security clearance from 2012 – 2018.', 'Overcame seemingly insurmountable odds to attain operational readiness on 2 separate occasions, resulting in being awarded two Navy and Marine Corps Achievement medals.', 'Re-engineered the technological documentation process for the largest program in military aviation in order to improve document access and storage by 86% while removing the time needed for project management by 79%.', 'Cultivated an environment that encourages organizational readiness and individual mental health awareness.', 'Supervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.']
   }];
   var schools = [{
     name: 'Amazon Web Services',
@@ -4636,61 +4636,52 @@ function NavBar() {
       isNavExpanded = _useState2[0],
       setIsNavExpanded = _useState2[1];
 
-  if (width > 800) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "navBar"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Kenneth Schaefer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Theme__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "home"
-    }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "experience"
-    }, " Experience "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "projects"
-    }, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "contact"
-    }, " Contact "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Outlet, null));
-  } else {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "navBar"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Kenneth Schaefer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Theme__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-      className: "navigation"
-    }, isNavExpanded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-      className: "hamburger",
-      onClick: function onClick() {
-        setIsNavExpanded(!isNavExpanded);
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-      xmlns: "http://www.w3.org/2000/svg",
-      className: "h-5 w-5",
-      viewBox: "0 0 20 20",
-      fill: "#dd614a"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-      fillRule: "evenodd",
-      d: "M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z",
-      clipRule: "evenodd"
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "home",
-      onClick: function onClick() {
-        setIsNavExpanded(!isNavExpanded);
-      }
-    }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "experience",
-      onClick: function onClick() {
-        setIsNavExpanded(!isNavExpanded);
-      }
-    }, "Experience")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "projects",
-      onClick: function onClick() {
-        setIsNavExpanded(!isNavExpanded);
-      }
-    }, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "contact",
-      onClick: function onClick() {
-        setIsNavExpanded(!isNavExpanded);
-      }
-    }, "Contact")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Outlet, null));
-  }
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "navBar"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Kenneth Schaefer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Theme__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    className: "navigation"
+  }, isNavExpanded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "hamburger",
+    onClick: function onClick() {
+      setIsNavExpanded(!isNavExpanded);
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    className: "h-5 w-5",
+    viewBox: "0 0 20 20",
+    fill: "#dd614a"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    fillRule: "evenodd",
+    d: "M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z",
+    clipRule: "evenodd"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, isNavExpanded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    id: "close-navbar",
+    onClick: function onClick() {
+      return setIsNavExpanded(!isNavExpanded);
+    }
+  }, "X") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "home",
+    onClick: function onClick() {
+      setIsNavExpanded(!isNavExpanded);
+    }
+  }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "experience",
+    onClick: function onClick() {
+      setIsNavExpanded(!isNavExpanded);
+    }
+  }, "Experience")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "projects",
+    onClick: function onClick() {
+      setIsNavExpanded(!isNavExpanded);
+    }
+  }, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "contact",
+    onClick: function onClick() {
+      setIsNavExpanded(!isNavExpanded);
+    }
+  }, "Contact")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Outlet, null));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
@@ -4824,8 +4815,9 @@ function Button() {
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "theme",
     onClick: handleToggle
-  }, "Change Theme"));
+  }, "Theme"));
 }
 
 /***/ }),

@@ -45,8 +45,8 @@ export default function Button() {
 
     return (
         <>
-            <button onClick={handleToggle}>
-                Change Theme
+            <button className='theme' onClick={handleToggle}>
+                Theme
             </button>
         </>
     )

@@ -17,6 +17,8 @@
     }
 
     .info {
+        display: flex;
+        flex-wrap: wrap;
         h2 {
             text-align: left;
             padding: 1%;
@@ -27,24 +29,31 @@
         }
 
         .phone {
+            display: flex;
+            flex-wrap: wrap;
             justify-content: left;
             text-align: left;
+            width: 85%;
             .propertyName {
                 text-align: left;
                 display: inline-block;
                 width: 20%;
-                color: @secondaryFont
+                color: @secondaryFont;
+                
             }
-
+            
             .propertyValue {
                 display: inline-block;
                 text-align: right;
                 width: 75%;
-                color: @mainFont
+                color: @mainFont;
             }
         }
 
         .email {
+            display: flex;
+            flex-wrap: wrap;
+            width: 85%;
             .propertyName {
                 text-align: left;
                 display: inline-block;
@@ -66,6 +75,9 @@
         }
 
         .github {
+            display: flex;
+            flex-wrap: wrap;
+            width: 85%;
             .propertyName {
                 text-align: left;
                 display: inline-block;
@@ -93,6 +105,9 @@ and (max-device-width: 600px)
  {
     .propertyName, .propertyValue{
         padding-top: 5%;
-        font-size: medium;
+        font-size: small;
+        a{
+            font-size:small;
+        }
     }
  }

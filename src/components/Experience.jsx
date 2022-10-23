@@ -42,7 +42,7 @@ function Experience(){
             'Negotiated general contracts, purchase orders and subcontract agreements with clients and subcontractors.',
             'Supervised crews of up to 10 carpenters, journeymen, drywall hangers, and general labor personnel.',
             'Inspecting work in progress to ensure quality and conformity to contract and drawing specifications in accordance with federal guidelines',
-            'nspected work in progress to ensure quality and conformity to contract and drawing specifications in accordance with state and federal guidelines.',
+            'Inspected work in progress to ensure quality and conformity to contract and drawing specifications in accordance with state and federal guidelines.',
         ]
     },
     {
@@ -51,10 +51,10 @@ function Experience(){
         date: 'December 2010 - January 2018',
         description:[
             'Held a Top Secret security clearance from 2012 – 2018.',
-            'Overcame seemingly insurmountable odds to attain operational readiness on 2 separate occasions. As a result, was awarded the Navy and Marine Corps Achievement medal on each occasion.',
+            'Overcame seemingly insurmountable odds to attain operational readiness on 2 separate occasions, resulting in being awarded two Navy and Marine Corps Achievement medals.',
             'Re-engineered the technological documentation process for the largest program in military aviation in order to improve document access and storage by 86% while removing the time needed for project management by 79%.',
             'Cultivated an environment that encourages organizational readiness and individual mental health awareness.',
-            'upervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.',
+            'Supervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.',
         ]
     },
 ];
